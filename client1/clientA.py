@@ -7,11 +7,9 @@ import threading
 from des_cbc import DES_CBC
 from rsa_from_scratch import RSA
 
-# Ganti dengan IP Server (Laptop) Anda
 SERVER_IP = '192.168.18.50' # <-- GANTI INI
 SERVER_PORT = 12345
 
-# Global DES object (di-set setelah handshake)
 des_cipher = None
 sock = None
 
