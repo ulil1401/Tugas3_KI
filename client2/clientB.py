@@ -1,6 +1,7 @@
 # Nama file: client_b.py
 # Deskripsi: Klien B (Penerima Pertukaran Kunci)
 
+import os
 import socket
 import threading
 from des_cbc import DES_CBC
@@ -113,4 +114,5 @@ def main():
         sock.close()
 
 if __name__ == "__main__":
+
     main()
